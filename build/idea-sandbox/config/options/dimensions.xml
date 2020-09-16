@@ -1,0 +1,13 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="1272" y="143" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="968" y="442" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="600" y="342" />
+    <location key="IDE.errors.dialog.0.0.1920.1080" x="540" y="253" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="227" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="227" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="227" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="227" />
+    <size key="IDE.errors.dialog.0.0.1920.1080" width="1085" height="533" />
+  </component>
+</application>

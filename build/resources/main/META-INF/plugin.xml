@@ -1,0 +1,21 @@
+<idea-plugin>
+  <version>1.0</version>
+  <change-notes>
+      1.0 Initial Version</change-notes>
+  <idea-version since-build="192.7142" until-build="192.*"/>
+  <id>com.ikresimir.stacksearch</id>
+  <name>Stack Search</name>
+  <vendor email="ilicic.kresimir@gmail.com" url="http://www.ikresimir.com">Ikresimir</vendor>
+  <description>
+    This plugin will enable the user to search the highlighted text on Stack Overflow without the need of manually copying and pasting it.
+    The main reason this plugin exists is to save some time for the programmer.
+    </description>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <group id="stacksearch.Topmenu" description="Search code on Stack Overflow">
+      <add-to-group group-id="ToolbarRunGroup" anchor="last"/>
+      <action id="performSearch" class="Actions.performSearch" description="Perform search" icon="/META-INF/pluginIcon.svg"/>
+    </group>
+  </actions>
+</idea-plugin>
